@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 
 const connectDB=()=>{
-    mongoose.connect("https://github.com/diyaj25-it/backend.git/bloging")
+    mongoose.connect("https://github.com/diyaj25-it/backend.git/blogging")
     
 .then(()=>{
     console.log("successfully connected to mongodb")
